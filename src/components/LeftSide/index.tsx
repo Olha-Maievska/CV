@@ -1,5 +1,10 @@
 import AboutMe from './components/AboutMe'
+import Data from './components/Data'
+import Languages from './components/Languages'
+import Links from './components/Links'
 import MyPhoto from './components/MyPhoto'
+import Skills from './components/Skills'
+import Study from './components/Study'
 
 const LeftSide = () => {
   return (
@@ -7,6 +12,11 @@ const LeftSide = () => {
       <div>
         <MyPhoto />
         <AboutMe />
+        <Study />
+        <Skills />
+        <Links />
+        <Languages />
+        <Data />
       </div>
     </div>
   )

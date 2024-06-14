@@ -2,7 +2,7 @@ import Title from '../../Title'
 
 const AboutMe = () => {
   return (
-    <div className="w-96 mx-auto border-b border-gray pb-10">
+    <div className="w-96 mx-auto border-b border-gray pb-10 mb-20">
       <Title text="O MNĚ" color="gold" />
       <p className="text-gray leading-8">
         Během 3 let jsem se učim frontendový vývoj. Jako junior vývojářka se
