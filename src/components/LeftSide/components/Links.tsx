@@ -14,8 +14,8 @@ const Links = () => {
           </a>
         </li>
         <li className="hover:text-white transition-all">
-          <a href="https://dicantra.vercel.app/" target="_blank">
-            Portfolio Dicantra
+          <a href="https://dicentra.vercel.app/" target="_blank">
+            Portfolio Dicentra
           </a>
         </li>
         <li className="hover:text-white transition-all focus:outline-transparent">
