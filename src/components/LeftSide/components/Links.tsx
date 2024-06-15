@@ -1,10 +1,10 @@
-import Title from '../../Title'
+import Title from './Title'
 
 const Links = () => {
   return (
-    <div className="w-96 mx-auto border-b border-gray pb-10 mb-20">
-      <Title text="odkazy" color="gold" />
-      <ul className="text-gray leading-8">
+    <div className="mb-12 md:mb-20">
+      <Title text="odkazy" />
+      <ul>
         <li className="hover:text-white transition-all">
           <a
             href="https://olha-maievska.github.io/gid-group-react/"

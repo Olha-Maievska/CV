@@ -11,12 +11,13 @@ export default {
     },
     extend: {
       fontFamily: {
-        main: 'Open Sans, sans-serif'
+        main: 'Open Sans, sans-serif',
+        oswald: 'Oswald, sans-serif',
       },
       colors: {
         blue: '#132337',
         gold: '#978849',
-        gray: '#AEBEB9'
+        gray: '#AEBEB9',
       }
     },
   },

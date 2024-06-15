@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Title from '../../Title'
+import Title from './Title'
 
 const Skills = () => {
   const [skillsData] = useState([
@@ -12,9 +12,9 @@ const Skills = () => {
     'Verzovací systém GIT',
   ])
   return (
-    <div className="w-96 mx-auto border-b border-gray pb-10 mb-20">
-      <Title text="tvrdé dovednosti" color="gold" />
-      <ul className="text-gray leading-8">
+    <div className="mb-12 md:mb-20">
+      <Title text="tvrdé dovednosti" />
+      <ul>
         {skillsData.map((item) => (
           <li key={item}>{item}</li>
         ))}

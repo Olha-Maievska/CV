@@ -1,11 +1,9 @@
 const Header = () => {
   return (
-    <header className="hidden sm:block lg:flex mt-2 md:mt-6 justify-between items-end mb-14 lg:mb-24 text-center md:text-left">
-      <div className="w-full lg:w-80 font-oswald uppercase text-blue mb-4 lg:mb-0">
-        <h5 className="font-medium text-3xl md:text-[55px] leading-8 md:leading-[60px] mb-2 md:mb-6 tracking-wider">
-          Olha Maievska
-        </h5>
-        <span className="text-md md:text-xl tracking-wider">
+    <header className="block sm:hidden text-gray m-10">
+      <div className="w-full font-oswald uppercase mb-4">
+        <h5 className="font-medium text-3xl mb-4">Olha Maievska</h5>
+        <span className="text-md tracking-wider">
           Junior Front End Developer
         </span>
       </div>
