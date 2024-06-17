@@ -6,6 +6,7 @@ import Links from './components/Links'
 import MyPhoto from './components/MyPhoto'
 import Skills from './components/Skills'
 import Study from './components/Study'
+import WorkStart from './components/WorkStart'
 
 const LeftSide = () => {
   return (
@@ -19,6 +20,7 @@ const LeftSide = () => {
         <Skills />
         <Links />
         <Languages />
+        <WorkStart />
       </div>
     </div>
   )

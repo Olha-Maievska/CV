@@ -9,7 +9,7 @@ const Hobby = () => {
     'cestování',
   ])
   return (
-    <div>
+    <div className="mb-12 md:mb-20">
       <Title text="kónický" />
       <ul>
         {hobby.map((item) => (

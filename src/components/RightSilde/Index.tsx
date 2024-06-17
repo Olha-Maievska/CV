@@ -2,6 +2,7 @@ import Courses from './components/Courses'
 import Experiences from './components/Experiences'
 import Header from './components/Header'
 import Hobby from './components/Hobby'
+import Note from './components/Note'
 import Skills from './components/Skills'
 
 const RightSide = () => {
@@ -13,6 +14,7 @@ const RightSide = () => {
         <Courses />
         <Skills />
         <Hobby />
+        <Note /> 
       </div>
     </div>
   )
